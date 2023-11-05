@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css-file.css">
+    <script src="https://kit.fontawesome.com/343b988101.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- -------first page------- -->
+   <div id="header">
+        <div class="container">
+           <nav>
+                <img src="images/laxmi-logo.jpg" class="logo">
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#portfolio">Friends</a></li>
+                   <li><a href="#services">Hobbies</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav> 
+           <div class="header-text">
+            <p>Welcome To My Portfolio</p>
+            <h1>I'm <span>Laxmi Bharamshetti</span><br> From India. </h1>
+           </div>
+        </div>
+   </div> 
+
+   <!-- -------about-------- -->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="images/black dress.jpeg">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>I'm Laxmi Ishwar Bharamshetti, born and brought up in Belagavi, Karnataka state, India. My father name is Ishwar and mother name is Svaita. I have two elder brothers, Akshay and Anil. My interests include cycling, art, and listening music. </p>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                  <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+               </div>
+               <div class="tab-contents active-tab" id="Education">
+                  <ul>
+                     <li><span>School</span><br>Jeevan Jyoti Academy, Mahantesh Nagar, Belagavi. </li>
+                     <li><span>PU College</span><br>Raja Lakhamagouda PU Science College, College road, Belagavi.</li>
+                     <li><span>Engineering College</span><br>Jain College Of Engineering And Research, Udyambhag, Belagavi. </li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="Achievements">
+                  <ul>
+                     <li><span>In School</span><br>1. Best Girl Award.<br>2. Most Sincere Girl.</li>
+                     <li><span>In PU College</span><br>1. 2nd Prize in Drawing.<br>2. 3rd Prize in Quize.</li>
+                     <li><span>In Engineering College</span><br>1. Secured 3rd Rank in Academics.</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- ------portfolio(friends)------- -->
+<div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Best Friends</h1>
+      <div class="work-list">
+         <div class="work">
+            <img src="images/glo.jpeg">
+            <div class="layer">
+               <h3>Glory Kodamalla</h3>
+               <p>More important than the things that we have in our lives are the people that we have in our lives. True friendship makes us feel full of love and happiness, and that is a feeling that you can’t put a price on.<br><br> Thank you Glory for being with me in all my ups and downs.</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/pelu1.jpeg">
+            <div class="layer">
+               <h3>Prerana Kolkar</h3>
+               <p>A true friend is a companion who will be there for you no matter what. You can be 100% yourself around them with no judgement, and they’ll love and support you through thick and thin.<br><br>Thank you Prerana for everything.</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/sony-college1.jpeg">
+            <div class="layer">
+               <h3>Sunaina Masaguppi</h3>
+               <p>We weren’t sisters by birth, but we knew from the start…fate brought us together to be sisters by heart.<br><br>Thank you Sunaina for being my best friend as well as my sister.</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+      </div>
+      
+   </div>
+</div>
+
+   <!-- -------services-------- -->
+<div id="services">
+   <div class="container">
+      <h1 class="sub-title">My Hobbies</h1>
+      <div class="services-list">
+         <div>
+            <i class="fa-solid fa-bicycle"></i>
+            <h2>cycling</h2>
+            <p> Cycling regularly is one of the best ways to reduce your risk of health problems linked to an unhealthy lifestyle. It can assist in establishing a physically and mentally healthy lifestyle.</p>   
+         </div>
+         <div>
+            <i class="fa-solid fa-palette"></i>
+            <h2>Art</h2>
+            <p>Drawing is a visual art that uses an instrument to mark paper or another two-dimensional surface.Drawing is often exploratory, with considerable emphasis on observation, problem-solving and composition. Drawing is also regularly used in preparation for a painting, further obfuscating their distinction.</p>   
+         </div>
+         <div>
+            <i class="fa-solid fa-music"></i>
+            <h2>Listening Music</h2>
+            <p>Evolutionary scientists say human beings may have developed a dependence on music as a communication tool because our ancestors descended from arboreal species — tree-dwellers who called to one another across the canopy.</p>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+<!-- ---------contact--------- -->
+<div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>laxmishetti12@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9876543210</p>
+            <div class="social-icons">
+               <a href="https://www.instagram.com/laxmi_shetti01" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/laxmibharamshetti" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://www.x.com/laxmi_shetti01" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+               <a href="https://www.snapchat.com/add/laxmi_shett01" target="_blank"><i class="fa-brands fa-square-snapchat"></i></a>
+            </div>
+           
+         </div>
+         <div class="contact-right">
+            <form action="" name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="email" placeholder="Your Email" required>
+               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+      </div>
+   </div>
+</div>
+
+   <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab")
+      }
+   </script>
+   <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+         sidemenu.style.right= "0";
+      }
+      function closemenu(){
+         sidemenu.style.right= "-200px";
+      }
+   </script>
+   <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ9zkH1CVbkg0lSq5JvSn-DXOVZYE7m54aIAx2_AnMk0fnLhwQbyLx1z-mQSyGu9nY/exec'
+  const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+         msg.innerHTML = "Message sent successfully."
+         setTimeout(function(){
+            msg.innerHTML =""
+         },4000)
+         form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
